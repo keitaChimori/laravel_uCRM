@@ -12,10 +12,6 @@ defineProps({
   customers: Object
 });
 
-// onMounted(() => {
-//   console.log(customers);
-// })
-
 const search = ref('');
 
 const searchCustomers = () => {
